@@ -2,11 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disable Calls</title>
-
-  <!-- Google Analytics (GA4 correto) -->
-  <!-- Substitua G-XXXXXXXXXX pelo seu ID real -->
+  <title>Redirecionando...</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-396312484"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -14,33 +10,34 @@
     gtag('js', new Date());
     gtag('config', 'G-396312484');
   </script>
-
-  <!-- Redirecionamento IMEDIATO -->
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  </style>
   <script>
     // Redireciona imediatamente ao carregar a página
     window.onload = function() {
       window.location.href = "https://play.google.com/store/apps/details?id=com.app.disablecalls&referrer=share";
     };
   </script>
-
-  <style>
-    body {
-      font-family: Arial;
-      background: #0f172a;
-      color: white;
-      text-align: center;
-      padding-top: 100px;
-    }
-    a {
-      color: #22c55e;
-      font-size: 18px;
-    }
-  </style>
-
 </head>
 <body>
   <h2>Disable Calls - Bloqueador de Chamadas</h2>
   <img src="https://i.gifer.com/ZZ5H.gif" alt="Carregando">
-
 </body>
 </html>

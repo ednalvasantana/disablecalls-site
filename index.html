@@ -5,20 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Disable Calls</title>
 
-  <!-- Google Analytics (coloque seu ID depois) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=396312484"></script>
+  <!-- Google Analytics (GA4 correto) -->
+  <!-- Substitua G-XXXXXXXXXX pelo seu ID real -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-396312484"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '396312484');
+    gtag('config', 'G-396312484');
   </script>
 
-  <!-- Redirecionamento -->
+  <!-- Redirecionamento IMEDIATO -->
+  <meta http-equiv="refresh" content="0; url=https://play.google.com/store/apps/details?id=com.app.disablecalls&referrer=share">
+
   <script>
-    setTimeout(function() {
-      window.location.href = "https://play.google.com/store/apps/details?id=com.app.disablecalls&referrer=share";
-    }, 1500);
+    window.location.replace("https://play.google.com/store/apps/details?id=com.app.disablecalls&referrer=share");
   </script>
 
   <style>
@@ -44,7 +45,7 @@
   <p>Redirecionando...</p>
 
   <a href="https://play.google.com/store/apps/details?id=com.app.disablecalls&referrer=share">
-    Clique aqui para baixar
+    Clique aqui se não redirecionar
   </a>
 
 </body>
